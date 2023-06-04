@@ -1,0 +1,19 @@
+<%- include("partials/header");-%>     
+    <link rel="stylesheet" href="/css/display.css">
+    
+    <div class="mainimg ">
+        <img src="/images/phone.jpg"   alt="" style="border-radius: 20px; height: 90%;">
+    </div>
+    <div class="pricing">
+        <form action="/pricing" method="POST">
+            <div class="txt_field">
+                <input type="number" name = "quantity"required placeholder="Quantity" >
+                <span></span>  
+                <input type="text" name = "amount" placeholder="Amount" >
+                <span></span>
+                <button type="submit" class="btn">submit</button>
+            </div>
+        </form>
+    </div>
+
+<%- include("partials/footer"); -%>
