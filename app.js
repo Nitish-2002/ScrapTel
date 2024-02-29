@@ -49,4 +49,4 @@ app.post("/pricing",function(req,res){
 });
 app.listen(process.env.PORT, function() {
   console.log("Server started on http://localhost:"+process.env.PORT);
-});
+// });
